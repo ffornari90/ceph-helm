@@ -1,0 +1,6 @@
+dependencies:
+- name: helm-toolkit
+  repository: https://ffornari90.github.io/ceph-helm
+  version: 0.2.0
+digest: sha256:ea5eb82c89df597815825c21e039e4d938471e6aa661061dd6a1a83ea7aed624
+generated: "2020-12-19T21:28:39.512557335Z"
