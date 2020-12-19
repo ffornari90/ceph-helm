@@ -1,5 +1,50 @@
 apiVersion: v1
 entries:
+  ceph-client:
+  - apiVersion: v2
+    created: "2020-12-19T23:00:28.211534503Z"
+    description: OpenStack-Helm Ceph Client
+    digest: 9e8508087b6084d121ba7498563435689646c3420288ffd368b7042de59dce4c
+    name: ceph-client
+    urls:
+    - https://github.com/ffornari90/ceph-helm/releases/download/ceph-client-0.2.0/ceph-client-0.2.0.tgz
+    version: 0.2.0
+  ceph-mon:
+  - apiVersion: v2
+    created: "2020-12-19T23:00:28.365267559Z"
+    description: OpenStack-Helm Ceph Mon
+    digest: 41044b3d6452fe82228972b21b674275016ec6a16209ef9d2cf5da61f93a3c40
+    name: ceph-mon
+    urls:
+    - https://github.com/ffornari90/ceph-helm/releases/download/ceph-mon-0.2.0/ceph-mon-0.2.0.tgz
+    version: 0.2.0
+  ceph-osd:
+  - apiVersion: v2
+    created: "2020-12-19T23:00:28.529338811Z"
+    description: OpenStack-Helm Ceph OSD
+    digest: 8655ecd8fda359c7aecd64c059c597d10ab00f8b89c3829b81c14f1ddcab1dcb
+    name: ceph-osd
+    urls:
+    - https://github.com/ffornari90/ceph-helm/releases/download/ceph-osd-0.2.0/ceph-osd-0.2.0.tgz
+    version: 0.2.0
+  ceph-provisioners:
+  - apiVersion: v2
+    created: "2020-12-19T23:00:28.700351652Z"
+    description: OpenStack-Helm Ceph Client
+    digest: 295200094d30bd6c7ad10f149b11cb5c1388480baf8dd7d5bdc7154f909d0336
+    name: ceph-provisioners
+    urls:
+    - https://github.com/ffornari90/ceph-helm/releases/download/ceph-provisioners-0.2.0/ceph-provisioners-0.2.0.tgz
+    version: 0.2.0
+  ceph-rgw:
+  - apiVersion: v2
+    created: "2020-12-19T23:00:28.866673707Z"
+    description: OpenStack-Helm Ceph RadosGW
+    digest: be473c2fb84b076bd5016bdcdc7afa57e273f522875f5a68de05c33f23fc8acd
+    name: ceph-rgw
+    urls:
+    - https://github.com/ffornari90/ceph-helm/releases/download/ceph-rgw-0.2.0/ceph-rgw-0.2.0.tgz
+    version: 0.2.0
   helm-toolkit:
   - apiVersion: v2
     created: "2020-12-19T21:01:36.133365096Z"
