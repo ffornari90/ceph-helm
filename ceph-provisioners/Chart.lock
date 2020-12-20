@@ -3,4 +3,4 @@ dependencies:
   repository: https://ffornari90.github.io/ceph-helm
   version: 0.2.0
 digest: sha256:ea5eb82c89df597815825c21e039e4d938471e6aa661061dd6a1a83ea7aed624
-generated: "2020-12-19T21:28:40.991223017Z"
+generated: "2020-12-20T22:04:10.983843182Z"
